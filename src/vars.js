@@ -110,12 +110,6 @@ const vars = [
         desc: ''
       },
       {
-        name: '@heading-color-dark',
-        type: 'color',
-        value: 'rgb(0,0,0,1)',
-        desc: ''
-      },
-      {
         name: '@text-color-dark',
         type: 'color',
         value: 'rgb(255,255,255,0.85)',
