@@ -53,7 +53,7 @@ class ThemeCard extends Component {
       window.less
         .modifyVars(theme)
         .then(() => { })
-        .catch(() => {
+        .catch((err) => {
           console.error(err.message);
           message.error('Failed to update theme');
         });
